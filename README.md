@@ -76,7 +76,7 @@ var lastDrive = DRIVE_EVENT_DETECTOR.GetLastDrive();
 // Get total drive count
 int total = DRIVE_EVENT_DETECTOR.GetTotalDrivesCount();
 
-// Get last event ("<PlugIn>" or "<Unplug>")
+// Get last event ("<PlugIn>" or "<Unplug>" or null if no event)
 string? lastEvent = DRIVE_EVENT_DETECTOR.GetLastEvent();
 ```
 
